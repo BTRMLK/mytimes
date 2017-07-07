@@ -1,3 +1,8 @@
+/* temp borders for divs*/
+div {
+  border: 1px solid black;
+}
+
 header {
   display: flex;
   font-family: Verdana;
@@ -7,17 +12,19 @@ header {
   flex-direction: row;
   border-bottom: 1px solid black;
   height: 80px;
-  flex-grow: 1;
 }
 
 nav {
-  display: flex;
+  display: block;
+  padding-right: 40px;
 }
 
 .logo {
   display: flex;
   color: MediumAquamarine;
   align-items: center;
+  padding-left: 30px;
+  flex-grow: 1;
 }
 
 footer {
@@ -29,4 +36,8 @@ footer {
 span {
   display: inline-block;
   padding: 20px 10px;
+}
+
+content {
+  display: flex;
 }
